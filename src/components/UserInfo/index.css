@@ -1,1 +1,47 @@
 /* Write your CSS code here */
+
+.user-info-main-container {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto';
+  margin-top: 15px;
+}
+
+.user-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-info-image {
+  width: 90px;
+}
+
+@media screen and (min-width: 768px) {
+  .user-info-image {
+    width: 110px;
+  }
+}
+
+.user-info-heading {
+  font-size: 20px;
+  color: #12022f;
+}
+
+@media screen and (min-width: 768px) {
+  .user-info-heading {
+    font-size: 25px;
+  }
+}
+
+.user-info-para {
+  color: #616e7c;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .user-info-para {
+    font-size: 16px;
+  }
+}
